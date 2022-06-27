@@ -1,0 +1,68 @@
+*flex-box{
+    display: flex;
+}
+h1{
+    margin-left: 27rem;
+}
+.calculator{
+    border: 0.3rem #003030 solid;
+    height: 60vh;
+    width: 20vw;
+    margin-left: 25rem;
+    align-content: center;
+    justify-content: center;
+    border-radius: 2rem;
+    padding: 0.5rem;
+    background-color:grey;
+    
+
+}
+.screen{
+    width: 90%;
+    height: 30%;
+    background-color: #f0f0f0;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem;
+
+}
+.screen #screen{
+    height: 50%;
+    
+}
+hr{
+    width: 90%;
+    margin: 0.5rem;
+}
+#numbers button{
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    background-color: darkgrey;
+}
+#keypads{
+    width: 90%;
+    height: 70%;
+    display:flex;
+    margin: 0.5rem;
+    
+}
+.class1 {
+    width: 80%;
+}
+#function_keys {
+    width: 13%;
+}
+#redo_keys button{
+    font-size: 1.5rem; 
+    background-color: darkkhaki;
+}
+#function_keys button{
+    width: 2.5rem;
+    height: 3.5rem;
+    font-size: 1.5rem;
+    background-color:chocolate;
+}
+button{
+     border-radius: 0.2rem;
+}
